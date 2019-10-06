@@ -4,11 +4,7 @@ JavaScript MA03
 
 Level 2
 
-
-
 1. In your own words, describe what JavaScript Code Style is.
-
-
 	It is a way to create easy and readable code, not just for you, but for others to read. 
 	It is good practise to use whitespace, give logic names when you're declaring functions and variables. By having a good structure to your code, you and others will save time reading and editing it. 
 
@@ -18,17 +14,11 @@ Level 2
 	Example from Lesson Assignment 3.1: "var phoneRE = /^[0]\d\d\d\d\d[7]$/;" is a RegEx that want the user to input a number that have to start with a 0, and end with a 7, and only be 7 digits long.
 
 
-
-
 3. What does the .random() method do?
 	This method returns a random number between 0 and 1.
 
 
-
-
 4. What does the .sort() method do?
-
-
 	This method sorts all the elements inside an array in alphabetical order, into a string.
  
 
@@ -36,29 +26,20 @@ Level 2
 	This method reverse the order of the elements that are inside an array. So if an array has the elements ["Dog", "Cat", "Mouse"]; it will return it as "Mouse", "Cat", "Dog".
 
 
-
-
 6. List two examples of bad JavaScript code.
 	- Give the variables/array etc names that are not logical to the code. Example: var dogArray = ["BMW", "Toyota", "KIA]; This array has nothing to do with dogs. 
 
 	- Write multiple statement one the same line.
 	Example: var alphabetStart = /abc/; console.log(alphabetStart.test("Learn your abc")); var anyNumber = /[0-9]/; console.log(anyNumber.test(15616816)); //Code copied from Lesson 3.
-	
-
 
 
 7. What data types can a JSON object contain?
 	It can contain objects, array, booleans, strings, numbers and null. 
 
 
-
-
 8. What is minifying JavaScript Code?
 	It is a way to clean up and compress the code, so that unnecessary whitespace is removed, variables are shortened etc, so that the file size and the load time is reduced. 
 
 
-
-
 9. What is a global variable?
-
 	It's a variable that is on top of the script file. It will be accessible throughout the whole script file. It will also increase the risk for error, as it can easily be overwritten if you forgot that you have already declared a variable as a global. It is also slower to find, than local variables.
